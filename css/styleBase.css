@@ -1,0 +1,160 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-block-size: 100%;
+}
+
+body {
+    min-height: 100%;
+    min-block-size: 100%;
+}
+
+#header {
+    background-color: greenyellow;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(27, 91, 27);
+}
+
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    min-width: 5%;
+    max-width: 5%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+#link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 91, 27);
+}
+
+#footer {
+    background-color: greenyellow;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(27, 91, 27);
+}
+
+#credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIA */
+
+
+/*
+
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 90px;
+    }
+    .footer {
+        flex-flow: column;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    h1 {
+        font-size: 70px;
+    }
+    h6 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 18px;
+    }
+    ul,
+    li {
+        font-size: 17px;
+    }
+    .container {
+        flex-flow: column;
+        padding-top: 60px;
+    }
+    .content {
+        width: 100%;
+        padding: 20px;
+    }
+    .images {
+        width: 100%;
+    }
+    .footer {
+        flex-flow: column;
+    }
+} */
+
+
+/* ANIMATION */
+
+
+/*
+
+@keyframes blinkText {
+    0% {
+        color: #ffd60a;
+    }
+    50% {
+        color: #ff6c0a;
+    }
+    100% {
+        color: #ffd60a;
+    }
+}
+
+#blink {
+    animation: 2s blinkText ease infinite;
+}
+
+*/
