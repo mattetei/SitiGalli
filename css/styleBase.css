@@ -72,6 +72,7 @@ a {
 }
 
 #footer {
+    display: flex;
     background-color: greenyellow;
     min-width: 100%;
     max-width: 100%;
@@ -87,6 +88,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+#credits ul {
+    text-decoration: none;
+    list-style: none;
 }
 
 
