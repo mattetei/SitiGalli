@@ -1,3 +1,8 @@
+:root {
+    --background: greenyellow;
+    --border: rgb(27, 91, 27);
+}
+
 * {
     padding: 0%;
     margin: 0%;
@@ -17,7 +22,7 @@ body {
 }
 
 #header {
-    background-color: greenyellow;
+    background-color: var(--background);
     min-width: 100%;
     max-width: 100%;
     min-height: 80px;
@@ -25,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(27, 91, 27);
+    border: 3px solid var(--border);
 }
 
 .navigationBar {
@@ -68,19 +73,19 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(27, 91, 27);
+    color: var(--border);
 }
 
 #footer {
     display: flex;
-    background-color: greenyellow;
+    background-color: var(--background);
     min-width: 100%;
     max-width: 100%;
     min-height: 120px;
     max-height: 120px;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(27, 91, 27);
+    border: 3px solid var(--border);
 }
 
 #credits {
